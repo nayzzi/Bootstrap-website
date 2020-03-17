@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Smart Crop Suitability System</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
+    <div class="container">
+
+      <div class="logo float-left">
+
+
+        <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+
+          <li class="active"><a href="#intro">Home</a></li>
+          <li><a href="#about">Domain</a></li>
+          <li><a href="#milestone">Milestone</a></li>
+          <li><a href="#services">Documents</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+
+        </ul>
+      </nav><!-- .main-nav -->
+
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro" class="clearfix">
+    <div class="container">
+
+      <div class="intro-img">
+        <img src="img/intro-img.png" alt="" class="img-fluid">
+      </div>
+
+      <div class="intro-info">
+        <h2>We provide<br><span>smart</span> <span>solutions</span><br>for your Cultivation!</h2>
+        <div>
+          <a href="#about" class="btn-get-started scrollto">Get Started</a>
+          <a href="#services" class="btn-services scrollto">Documents</a>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+  <!-- LitReview -->
+  <div class="modal fade" id="LitReview" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+		<div class="modal-header">
+
+          <h4 class="modal-title">literature Review</h4>
+        </div>
+        <div class="modal-body">
+          <p>Now a day's people increasingly used to depend on machinery, rather than doing the things manually in order to save their time and effort. Recently this technique got more popular in cultivation field too. Earlier days farmers had to use so much human power to fulfill their needs in cultivation. But now using a single machine alone with only one person to control it can gain the same amount of work with lesser time and lesser money. Knowing the conditions which are required to grow the plant we desired to grow, is the key point of a successful cultivation. For that we need to know very well about the soil type we are dealing with as well as the environmental conditions..</p>
+          <p>Environmental conditions are not easy to change if we are assuming to start an outdoor plantation. But we can apply different nutrient types that helps to grow the plants well which leads to have a successful result. To identify the soil better in that specific ground, we can perform a soil test. Soil test is basically a series of tests which helps to identify the nutrient level of the soil. The most trusted and popular soil testing mechanism is testing the soil with the help of professionals in a laboratory. But majority of the people don’t have enough time to visit the laboratories or can be a beginner without much knowledge about cultivation. So they will believe the myths people say about the best crops for a particular area and grow it without thinking much.</p>
+          <p>Maybe trying plantations with believing myths will be a success, but we cannot guarantee that it is the best option that someone can decide on. Because the soil conditions will vary with the time, it will be helpful if the owner can get notify time to time with a nutrient plan which helps to adjust the soil to gain more results from the ground. According to a research by Department of Economic and Social Affairs in United Nation, New York, the current world population of 7.3 billion is expected to reach 8.5 billion by 2030 and 9.7 billion in 2050. So the amount of the people who need to feed will be increased day by day. Therefor we need to have a better cultivation system than the manual, traditional system. If there is a way for people to identify the best plant according to the environmental conditions in the area and the soil type of their ground by their own, it will be a very helpful solution for the better results and to saves time. The proposed system is basically based on using Internet of Things (IOT) and so that it leads to use technology on fulfilling cultivation purposes effectively and efficiently.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+    <!-- researchProb -->
+    <div class="modal fade" id="researchProb" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+        <div class="modal-header">
+
+          <h4 class="modal-title">Research Problem</h4>
+        </div>
+
+          <div class="modal-body">
+            <p>  Currently farmers don’t have an accurate and easy way to know the most suitable crop that can be grown in a particular ground to obtain a better profit on behalf of the money they invest.</p>
+
+            <p> So in the current system most of the farmers farm crops by believing myths, and very few of them use scientific approaches. Believing myths is risky because crops related to myths may not always be the most suitable crop to grow in that particular ground.</p>
+
+            <p>  For scientific approach, farmers need to test soil with the help of agriculture department. People need to travel long way to test soil by giving soil samples to agriculture department. It takes very large cost and as well as we can’t consider it as the overall soil result of the land. So result may vary with point to point of the land. So these problems will be gone by our project.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- objective -->
+    <div class="modal fade" id="objective" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+			<div class="modal-header">
+
+          <h4 class="modal-title">Objectives</h4>
+        </div>
+          <div class="modal-body">
+            <p>The main expectation of this project is to develop a fully functionally mobile app which capable to suggest the suitability of land to seed crops. This app is mainly focus on agricultural peoples who wish to seed new crops in a new soil land which hasn't seed particular seed before. By using the app people will be encouraging to seed smarter using recommended fertilizer levels with most suitable crop to the particular land.</p>
+            <ul style="list-style-type:circle;">
+              <li>To estimate fertility status of soil and can easily identify the best crop that can plant in that land</li>
+              <li>To change nutrient level in soil according to crop we need to grow. So, can gain good result</li>
+              <li>To use by any person to start their own plantation </li>
+              <li>To provide a basis for fertilizer recommendation for a given crop </li>
+              <li>To Reduce the risk of not being able to have good result from plantations</li>
+              <li>To make people encouraged to start plantation more</li>
+              <li>Save the soil</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- methodology -->
+    <div class="modal fade" id="methodology" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+			<div class="modal-header">
+
+          <h4 class="modal-title">Methodology</h4>
+        </div>
+          <div class="modal-body">
+            <p>  Soil testing is an important diagnostic tool for determining the nutrient needs of plants and for environmental assessments. Some soils are inherently deficient in plant nutrients. Other soils had sufficient levels of nutrients in the past, but removal with crop harvest has depleted the reserves. Thus, soil testing is widely accepted and used in most advanced crop-production areas of the world to determine fertilization needs for crops. Soil testing can also be used to identify application rates of waste materials containing nutrients or other elements that could harm the environment. Waste materials such as animal
+              manures and industry by-products may provide various plant nutrients. However, high application rates to soils designed to dispose of the material at a low cost may result in nutrient loads that are harmful to plant, animal, or human health. Nutrient management regulations are being developed to address land application of waste materials. Soil testing is required in many regulations and management guidelines to assess environmentally harmful levels of certain elements and to determine limits to application rates.</p>
+            <p> Soils are tried routinely for the essential supplements phosphorus (P), potassium (K), and nitrogen (N). In certain locales, soils are additionally routinely tried for other essential supplements, for example, calcium (Ca), magnesium (Mg), and sulfur (S), and for different supplements required in exceptionally little sums by yields, for example, boron (B), copper (Cu), iron (Fe), manganese (Mn), molybdenum (Mo), and zinc (Zn). Soils accepting waste materials are additionally tried for components, for example, arsenic (As), cadmium (Cd), nickel (Ni), lead (Pb), mercury (Hg), and selenium (Se) among others.</p>
+            <p>  The initial phase in deciding plant supplement necessities is settling on what sort of yield or plants will be developed and the turn of harvests or plants for the time of the supplement the board plan. After this choice has been made, an assurance of the required supplements is required. The essential method for making this assurance by and large is by soil testing. </p>
+            <p>Soil testing is the best strategy accessible for deciding how much supplement is required for ideal generation of generally crops. For certain yields, the utilization of plant examination might be the favored technique for deciding harvest supplement needs. Settling on supplement application choices without soil testing or plant examination can be a dangerous undertaking since this will most likely outcome in decreased benefit from either under-or over applying supplements; moreover, over application of supplements can result in diminished water quality. It is vital to pursue suggested methodology for taking soil and plant tests. </p>
+            <p>When making N suggestions for some harvests, the deciding variable on the amount N to apply depends on the normal yield of the yield. The best strategy for deciding expected yield is from past yield records. It is vital to utilize a normal yield that is practical, in such a case that a normal yield is utilized that is a lot more prominent than can be accomplished reasonably then more supplement will be connected than the harvest can use. Applying abundance supplement builds the danger of supplements getting into close-by water supplies and imperiling water quality. In the meantime, utilizing a normal yield that is too low can restrict yields because of supplement lacks, which lessens gainfulness of harvest creation.</p>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- techused -->
+    <div class="modal fade" id="techused" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+		<div class="modal-header">
+
+          <h4 class="modal-title">Technology Used</h4>
+        </div>
+          <div class="modal-body">
+            <ul style="list-style-type:circle;">
+            <li>  Xamarin is one of the most cost effective and time efficient cross-platform which uses .NET framework. So Xamarin, is suitable for developing mobile apps that work on multiple mobile platforms, like Android, iOS, Windows etc. It provides the advantages of native UI, access to specific-device features, and most importantly, native performance.</li>
+            <li> Boto3 is an Amazon Web Services (AWS) SDK for Python. It provides an easy to use, object-oriented API, as well as low-level access to AWS services and enables to create, configure and manage AWS services such as EC2 and S3</li>
+            <li>  MySQL is free open source database and it is a stable ,reliable and the powerful solution with the advanced features.</li>
+            <li>It facilitate the effective management of the databases by connecting them to the software.It additionally has connectors </li>
+            <li>to languages like C#, C++, Java,Node.js,Python, and PHP, implying that it's not constrained to SQL query language.</li>
+            <li>MySQL is intended to meet even the most requesting applications while guaranteeing the ideal speed, full content record and the one of a kind memory reserves for the upgraded exhibitions.</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Domain</h3>
+          <p>Domain Details about our project. information we have gathered by doing the literature survey</p>
+        </header>
+
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-book" data-toggle="modal" data-target="#LitReview"></i></div>
+              <h4 class="title"><a href="" data-toggle="modal" data-target="#LitReview" >literature Review</a></h4>
+              <p class="description">A comprehensive summary of previous research on crop suitability. The literature review surveys scholarly articles, books, and other sources relevant to a particular area of our research. <a href="" data-toggle="modal" data-target="#LitReview" >Read More</a></p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-exclamation-circle"></i></div>
+              <h4 class="title"><a href="" data-toggle="modal" data-target="#researchProb" >Research Problem And Research Gap</a></h4>
+              <p class="description">A statement about an area of concern, a condition to be improved, a difficulty to be eliminated, or a troubling question that exists in scholarly literature, in theory, or in practice that points to the need for meaningful understanding and deliberate investigation. <a href="" data-toggle="modal" data-target="#researchProb" >Read More</a></p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <h4 class="title"><a href="" data-toggle="modal" data-target="#objective" >Research Objective</a></h4>
+              <p class="description">Project summarizes what is to be achieved by the study.Objectives are the specific accomplishments the researcher hopes to achieve by the study. <a href="" data-toggle="modal" data-target="#objective" >Read More</a></p>
+            </div>
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon"><i class="fa fa-cogs"></i></div>
+              <h4 class="title"><a href="" data-toggle="modal" data-target="#methodology" >Methodology</a></h4>
+              <p class="description">Project summarizes what is to be achieved by the study.Objectives are the specific accomplishments the researcher hopes to achieve by the study. <a href="" data-toggle="modal" data-target="#methodology" >Read More</a></p>
+            </div>
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon"><i class="fa fa-gavel"></i></div>
+              <h4 class="title"><a href="" data-toggle="modal" data-target="#techused" >Technology used</a></h4>
+              <p class="description">Project summarizes what is to be achieved by the study.Objectives are the specific accomplishments the researcher hopes to achieve by the study. <a href="" data-toggle="modal" data-target="#techused" >Read More</a></p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+            <img src="img/about-img.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="milestone" class="clearfix">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Milestons</h3>
+        </header>
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src="img/proposal.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <h4>Project Proposal.</h4>
+            <p>Project proposal is the document designed to present the plan of the research, outline the reasons why the research is necessary & propose the idea of project to be extracted and done. it gives explanation based on the first finding and theories that are used in the project and how the project will give benefits to user</p>
+            <h5>Submission Date : 13th-19th March 2019</h5>
+            <h5>Allocated Marks : 5%</h5>
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+            <img src="img/about-extra-2.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <h4>DD Assessment.</h4>
+            <p></p>
+            <p>
+              The predominant purpose of this Requirements Design Document (RDD) is to provide a detailed description of the functionalities of the system ‘Smart Crop Suitability System ’. Therefore, this document will cover each of the system’s intended features, as well as offer a preliminary glimpse of constraints and their effects on the system. The document will also cover hardware, software, and various other technical dependencies.
+            </p>
+            <h5>Submission Date : 23rd-26th April</h5>
+            <h5>Allocated Marks : 6%</h5>
+          </div>
+
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src="img/presentation1.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <h4>Progress presentation I</h4>
+            <p>
+              Progress presentation I is basically to check the reality which we building what customer expecting and make the project concrete for the customers. </p>
+            <p>
+              PP I helps to design our product Any gaps or inconsistencies in the design/requirements may be revealed.and it helps to show up Absolute errors in our initial design. and finally we can overcome Weaknesses in the team’s skills by revealed.
+            </p>
+            <h5>Submission Date : 18th-20th June</h5>
+            <h5>Allocated Marks : 10%</h5>
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+            <img src="img/presentation2.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <h4>Progress presentation II</h4>
+            <p>Progress presentation II is requesting 90% completeness of project. we have to Demonstrate the project using a Laptop(s)
+              with Power extension code, wire connections and any other related equipment.</p>
+             <p>Also Require 4’x3’ (A-0) poster with a stand to display the poster vertically. Further, height and the width of each poster is 4’ and 3’ respectively. The whole contents of the presentation must be summarized to the poster.
+               Each group have to buy or prepare a suitable stand to hold the poster.  </p>
+
+            <h5>Submission Date : 2nd-4th September</h5>
+            <h5>Allocated Marks : 18%</h5>
+          </div>
+        </div>
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src="img/final.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <h4>Final Assessment</h4>
+            <p>
+              A dissertation is an essay advancing a new point of view resulting from research as a requirement for a Bachelor degree. </p>
+            <p>
+              The Final Assessment is intended to concisely summarize the outcomes of a project and is the final document in the CCS Project Management Methodology.  A Project Final Report is used to document project successes, lessons learned and performance in order to signal improvement in project delivery for the future.  </p>
+            <h5>Submission Date :13th-15th November</h5>
+            <h5>Allocated Marks : 10%</h5>
+          </div>
+        </div>
+
+
+        <div class="row about-extra">
+          <div class="col-lg-6 wow fadeInUp order-1 order-lg-2">
+            <img src="img/viva.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1">
+            <h4>Viva</h4>
+            <p></p>
+            <p>
+              final coverage of project/dissertation work ends with the final viva.
+                </p>
+            <p>
+              This will be the final part of our dissertation and the last opportunity to gain vital marks towards the module.Viva session is where give a verbal defence to completed project</p>
+            <h5>Submission Date : 13th-15th November</h5>
+            <h5>Allocated Marks : 15%</h5>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Documents</h3>
+          <p>Paperwork may sound boring but project documents are crucial for the success of a project.</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ionicons ion-document-text" style="color: #ff689b;"></i></div>
+              <h4 class="title"><a href="Documents/charter.docx" download>Project Charter</a></h4>
+              <p class="description">Formal, typically short document that describes project in its entirety — including what the objectives are and how it will be carried out.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ionicons ion-android-document" style="color: #e9bf06;"></i></div>
+              <h4 class="title"><a href="Documents/Proposal.pdf" download>Project Proposal</a></h4>
+              <p class="description">A core document that helps to focus on the substance of the proposed plan, while using an easy-to-follow project proposal outline.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ionicons ion-document" style="color: #3fcdc7;"></i></div>
+              <h4 class="title"><a href="Documents/Group_ddr.pdf" download>DDR -Group</a></h4>
+              <p class="description">A document which describes in detail the planning of a carbon project and how it meets each of the requirements of a particular carbon project standard.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ionicons ion-document" style="color:#41cf2e;"></i></div>
+              <h4 class="title"><a href="Documents/1_DDR.pdf" download>DDR - Wickramasinghe C.P</a></h4>
+              <p class="description">A document which describes in detail the planning of a carbon project and how it meets each of the requirements of individually project standard.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ionicons ion-document" style="color: #d6ff22;"></i></div>
+              <h4 class="title"><a href="Documents/2_DDR.pdf" download>DDR -Lakshitha P.L.N</a></h4>
+              <p class="description">A document which describes in detail the planning of a carbon project and how it meets each of the requirements of individually project standard.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ionicons ion-document" style="color: #4680ff;"></i></div>
+              <h4 class="title"><a href="Documents/3_DDR.pdf" download>DDR- H.P.H.S.Hemapriya</a></h4>
+              <p class="description">A document which describes in detail the planning of a carbon project and how it meets each of the requirements of individually project standard.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ionicons ion-document" style="color: #FF00FF;"></i></div>
+              <h4 class="title"><a href="Documents/4_DDR.pdf" download>DDR -P.G.N.S.Ranasinghe</a></h4>
+              <p class="description">A document which describes in detail the planning of a carbon project and how it meets each of the requirements of individually project standard.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ionicons ion-ios-copy-outline" style="color: #FF0000;"></i></div>
+              <h4 class="title"><a href="Documents/researchpaper.pdf" download>Research Paper </a></h4>
+              <p class="description">A piece of academic writing based on its author's original research on a particular topic, and the analysis and interpretation of the research findings. </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ionicons ion-ios-bookmarks" style="color: #00FF00;"></i></div>
+              <h4 class="title"><a href="Documents/19-015_FinalThesisSoftBound.pdf" download>Final Document-Group</a></h4>
+              <p class="description">The Report which intended to concisely summarize the outcomes of a project and is the final document in the CCS Project Management Methodology. A Project Final Report is used to document project successes, lessons learned and performance in order to signal improvement in project delivery for the future.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #services -->
+
+    <!--==========================
+      Why Us Section
+    ============================-->
+    <section id="why-us" class="wow fadeIn">
+      <div class="container">
+        <header class="section-header">
+          <h3>Presentations</h3>
+        </header>
+
+        <div class="row row-eq-height justify-content-center">
+
+          <div class="col-lg-4 mb-4">
+
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+                <i class="fa fa-language"></i>
+              <div class="card-body">
+                <h5 class="card-title">Proposal Presentation</h5>
+                <a href="Documents/presentation.pptx" download class="readmore">View</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+
+          </div>
+
+        </div>
+
+
+
+      </div>
+    </section>
+
+    <!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio" class="clearfix">
+      <div class="container">
+
+        <header class="section-header">
+          <h3 class="section-title">Our Portfolio</h3>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <ul id="portfolio-flters">
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+
+                <div>
+                  <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+
+                <div>
+                  <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="" title="Preview"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+
+                <div>
+                  <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="" title="Preview"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+
+                <div>
+                  <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="" title="Preview"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/web2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+
+                <div>
+                  <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="" title="Preview"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+
+                <div>
+                  <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="" title="Preview"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+
+                <div>
+                  <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="" title="Preview"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+
+                <div>
+                  <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="" title="Preview"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/web1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+
+                <div>
+                  <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="" title="Preview"><i class="ion ion-eye"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #portfolio -->
+
+    <!--==========================
+      Clients Section
+    ============================-->
+
+    <!--==========================
+      Team Section
+    ============================-->
+    <section id="team">
+      <div class="container">
+        <div class="section-header">
+          <h3>Team</h3>
+          <p>Team which played their major role to make the research succeed over the whole year. </p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp"style="padding-right: 35px;padding-left: 35px;">
+            <div class="member">
+              <img src="img/team-1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Wickramasinghe C.P</h4>
+                  <span>Leader</span>
+                  <div class="social">
+                    <a href="https://www.linkedin.com/in/chathura-wickramasinghe-584260172"><i class="fa fa-linkedin"></i></a>
+                    <a href="mailto:Chathura.95@hotmail.com"><i class="fa fa-envelope"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" style="padding-right: 35px;padding-left: 35px;" data-wow-delay="0.1s">
+            <div class="member">
+              <img src="img/team-2.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>H.P.H.S.Hemapriya</h4>
+                  <span>Member</span>
+                  <div class="social">
+                    <a href="https://www.linkedin.com/in/hansamali-sajinika-253b5971"><i class="fa fa-linkedin"></i></a>
+                    <a href="mailto:hshansi6@gmail.com"><i class="fa fa-envelope"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" style="padding-right: 35px;padding-left: 35px;" data-wow-delay="0.2s">
+            <div class="member">
+              <img src="img/team-3.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Lakshitha P.L.N</h4>
+                  <span>Member</span>
+                  <div class="social">
+                    <a href="https://www.linkedin.com/in/nayana-lakshitha-30b3b5151"><i class="fa fa-linkedin"></i></a>
+                    <a href="mailto:nayanalak1995@gmail.com"><i class="fa fa-envelope"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 wow fadeInUp" style="padding-right: 35px;padding-left: 35px;" data-wow-delay="0.3s">
+            <div class="member">
+              <img src="img/team-4.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>P.G.N.S.Ranasinghe</h4>
+                  <span>Member</span>
+                  <div class="social">
+                    <a href="https://www.linkedin.com/in/nisansala-ranasinghe-3801b2193"><i class="fa fa-linkedin"></i></a>
+                    <a href="mailto:nssala16@gmail.com"><i class="fa fa-envelope"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #team -->
+
+<section id="contact" class="section-bg wow fadeInUp">
+      <div class="container">
+
+        <div class="section-header">
+          <h3>Contact Us</h3>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Address</h3>
+              <address>A108 Adam Street, NY 535022, USA</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+94 71 326 9553">+94 71 326 9553</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:Chathura.95@hotmail.com">Chathura.95@hotmail.com</a></p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="form">
+          <div id="sendmessage">Your message has been sent. Thank you!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactForm">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validation"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+   <div id="preloader"></div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
